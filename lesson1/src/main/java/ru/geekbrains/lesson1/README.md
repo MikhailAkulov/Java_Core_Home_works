@@ -10,4 +10,9 @@
 3. Создать Dockerfile, позволяющий откопировать исходный код вашего приложения в образ для демонстрации работы вашего приложения при создании соответствующего контейнера.
 
 Реализация:
-[homework_task_2](https://github.com/MikhailAkulov/intoTheDepthsOfPython/blob/main/pythonHomeWork_15/homework_task_2.py)
+
+[Main](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/java/ru/geekbrains/lesson1/sample/Main.java)
+
+[Decorator](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/java/ru/geekbrains/lesson1/regular/Decorator.java)
+
+[BasicMathOperations](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/java/ru/geekbrains/lesson1/regular/BasicMathOperations.java)
