@@ -16,3 +16,5 @@
 [Decorator](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/java/ru/geekbrains/lesson1/regular/Decorator.java)
 
 [BasicMathOperations](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/java/ru/geekbrains/lesson1/regular/BasicMathOperations.java)
+
+[dockerfile](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/dockerfile)
