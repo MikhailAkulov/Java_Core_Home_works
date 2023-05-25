@@ -4,15 +4,17 @@ import ru.geekbrains.lesson1.regular.Decorator;
 import ru.geekbrains.lesson1.regular.BasicMathOperations;
 
 /**
+
  https://www.docker.com/products/docker-desktop/
  https://hub.docker.com/
-
+ *
   javac -sourcepath ./java -d out java/ru/geekbrains/lesson1/sample/Main.java
  *
   java -classpath ./out ru.geekbrains.lesson1.sample.Main
  *
   javadoc -d docs -sourcepath ./java -cp ./out -subpackages ru
-* */
+
+*/
 
 /**
 
@@ -22,8 +24,11 @@ import ru.geekbrains.lesson1.regular.BasicMathOperations;
  RUN javac -sourcepath ./src -d out src/ru/geekbrains/lesson1/sample/Main.java
  CMD java -classpath ./out ru.geekbrains.lesson1.sample.Main
 
+ >> docker build . -t myhomeworkapp:latest
+ >> docker run myhomeworkapp:latest
+ >> docker run --rm myhomeworkapp:latest
 
-
+==============================================================
 
  FROM bellsoft/liberica-openjdk-alpine:11.0.16 as BuildProject
  WORKDIR /app
@@ -34,19 +39,17 @@ import ru.geekbrains.lesson1.regular.BasicMathOperations;
  FROM scratch as OutputFiles
  COPY --from=BuildProject /app/out /bin
 
-
  >> docker buildx build --output type=local,dest=. .
 
-
-
+ ==============================================================
 
  FROM bellsoft/liberica-openjdk-alpine:11.0.16
  WORKDIR /app
  COPY ./bin .
  CMD java -classpath . ru.geekbrains.lesson1.sample.Main
 
- docker build . -t runjavaapp:v1
- docker run runjavaapp:v1
+ >> docker build . -t runmyhomeworkapp
+ >> docker run runmyhomeworkapp
 
 */
 

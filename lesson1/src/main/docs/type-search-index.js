@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ru.geekbrains.lesson1.regular","l":"BasicMathOperations"},{"p":"ru.geekbrains.lesson1.regular","l":"Decorator"},{"p":"ru.geekbrains.lesson1.sample","l":"Main"}];updateSearchResults();
