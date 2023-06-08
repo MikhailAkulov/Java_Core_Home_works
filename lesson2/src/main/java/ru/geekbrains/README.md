@@ -12,4 +12,4 @@
 
 3. **** Доработать искусственный интеллект, чтобы он мог блокировать ходы игрока.
 
-Реализация: [Tic_tac_toe](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson1/src/main/java/ru/geekbrains/lesson1/sample/Main.java)
+Реализация: [Tic_tac_toe](https://github.com/MikhailAkulov/Java_Core_Home_works/blob/main/lesson2/src/main/java/ru/geekbrains/Tic_tac_toe.java)
