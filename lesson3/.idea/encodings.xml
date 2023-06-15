@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/geekbrains/Program.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/geekbrains/README.md" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/geekbrains/sample/BaseEmployee.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/geekbrains/sample/Freelancer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ru/geekbrains/sample/Worker.java" charset="UTF-8" />
+  </component>
+</project>

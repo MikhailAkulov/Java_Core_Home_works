@@ -1,14 +1,15 @@
 package ru.geekbrains;
 
 import java.util.Random;
+import java.util.Arrays;
 
 import ru.geekbrains.sample.*;
 
 public class Program {
     static BaseEmployee generateEmployee(){
 
-        String[] names = new String[] { "Сергей", "Ярослав", "Максим", "Алексей", "Александр", "Владимир", "Кирилл", "Иван", "Пётр", "Денис" };
-        String[] surnames = new String[] { "Смирнов", "Иванов", "Петров", "Койд", "Чмелёв", "Александров", "Самсонов", "Гринько", "Чалов", "Лепский" };
+        String[] names = new String[] { "Sergey", "Yaroslav", "Maksim", "Aleksey", "Aleksandr", "Vladimir", "Kirill", "Ivan", "Petr", "Denis" };
+        String[] surnames = new String[] { "Smirnov", "Ivanov", "Petrov", "Koid", "Chmelev", "Aleksandrov", "Samsonov", "Grinko", "Chalov", "Lepskiy" };
         Random random = new Random();
         int typeIndex = random.nextInt(2);
         int salary = random.nextInt(1001 - 500) + 200;
@@ -29,6 +30,17 @@ public class Program {
         for (int i = 0; i < employees.length; i++){
             employees[i] = generateEmployee();
         }
+
+        System.out.println("Source employees array:");
+
+        for (BaseEmployee employee : employees) {
+            System.out.println(employee);
+        }
+
+        System.out.println("============================================================================================" +
+                "\nSort employees by salary:");
+
+        Arrays.sort(employees);
 
         for (BaseEmployee employee : employees) {
             System.out.println(employee);

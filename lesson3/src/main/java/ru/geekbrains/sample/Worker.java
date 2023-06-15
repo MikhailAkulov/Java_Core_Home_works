@@ -13,7 +13,7 @@ public class Worker extends BaseEmployee{
 
     @Override
     public String toString() {
-        return String.format("%s %s; –абочий; —реднемес€чна€ заработна€ плата (фиксированна€ мес€чна€ оплата): %.2f (руб.)",
+        return String.format("%s %s; Worker; Average monthly salary (fixed monthly payment): %.2f (rub.)",
                 surname, name, salary);
     }
 }
