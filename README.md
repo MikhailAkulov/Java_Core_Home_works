@@ -1,10 +1,10 @@
-# В этом репозитории - домашние работы по курсу Java Core
+# Р’ СЌС‚РѕРј СЂРµРїРѕР·РёС‚РѕСЂРёРё - РґРѕРјР°С€РЅРёРµ СЂР°Р±РѕС‚С‹ РїРѕ РєСѓСЂСЃСѓ Java Core
 
-Урок 1. Компиляция и интерпретация кода
-[Домашняя работа № 1](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson1/src/main/java/ru/geekbrains/lesson1)
+РЈСЂРѕРє 1. РљРѕРјРїРёР»СЏС†РёСЏ Рё РёРЅС‚РµСЂРїСЂРµС‚Р°С†РёСЏ РєРѕРґР°
+[Р”РѕРјР°С€РЅСЏСЏ СЂР°Р±РѕС‚Р° в„– 1](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson1/src/main/java/ru/geekbrains/lesson1)
 
-Урок 2. Функции, манипулирующие данными
-[Домашняя работа № 2](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson2/src/main/java/ru/geekbrains)
+РЈСЂРѕРє 2. Р¤СѓРЅРєС†РёРё, РјР°РЅРёРїСѓР»РёСЂСѓСЋС‰РёРµ РґР°РЅРЅС‹РјРё
+[Р”РѕРјР°С€РЅСЏСЏ СЂР°Р±РѕС‚Р° в„– 2](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson2/src/main/java/ru/geekbrains)
 
-Урок 3. Классы и объекты
-[Домашняя работа № 3](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson3/src/main/java/ru/geekbrains)
+РЈСЂРѕРє 3. РљР»Р°СЃСЃС‹ Рё РѕР±СЉРµРєС‚С‹
+[Р”РѕРјР°С€РЅСЏСЏ СЂР°Р±РѕС‚Р° в„– 3](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson3/src/main/java/ru/geekbrains)
