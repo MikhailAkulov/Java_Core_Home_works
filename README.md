@@ -5,3 +5,6 @@
 
 Урок 2. Функции, манипулирующие данными
 [Домашняя работа № 2](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson2/src/main/java/ru/geekbrains)
+
+Урок 3. Классы и объекты
+[Домашняя работа № 3](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson3/src/main/java/ru/geekbrains)
