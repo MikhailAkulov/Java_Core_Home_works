@@ -8,3 +8,6 @@
 
 Урок 3. Классы и объекты
 [Домашняя работа № 3](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson3/src/main/java/ru/geekbrains)
+
+Урок 4. Обработка исключений
+[Домашняя работа № 4](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson4/src/main/java/ru/geekbrains)
