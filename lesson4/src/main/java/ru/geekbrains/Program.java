@@ -9,13 +9,13 @@ public class Program {
                 {"41", "42", "43", "44"}
         };
         try {
-            System.out.printf("Сумма элементов массива = %d\n", sumOfArray(array));
+            System.out.printf("РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР° = %d\n", sumOfArray(array));
         }
         catch (MyArraySizeException e) {
-            System.out.printf("%s\nТребуемый размер: 4 х 4", e.getMessage());
+            System.out.printf("%s\nРўСЂРµР±СѓРµРјС‹Р№ СЂР°Р·РјРµСЂ: 4 С… 4", e.getMessage());
         }
         catch (MyArrayDataException e) {
-            System.out.printf("%s [%d, %d]\nОшибка преобразования элемента массива в целое число",
+            System.out.printf("%s [%d, %d]\nРћС€РёР±РєР° РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ СЌР»РµРјРµРЅС‚Р° РјР°СЃСЃРёРІР° РІ С†РµР»РѕРµ С‡РёСЃР»Рѕ",
                     e.getMessage(), e.getRow() + 1, e.getColumn() + 1);
         }
     }
@@ -23,7 +23,7 @@ public class Program {
     public static int sumOfArray(String[][] array) throws MyArraySizeException, MyArrayDataException {
         if (array.length != 4 || array[0].length != 4 || array[1].length != 4 ||
                 array[2].length != 4 || array[3].length != 4) {
-            throw new MyArraySizeException("Неверный размер массива");
+            throw new MyArraySizeException("РќРµРІРµСЂРЅС‹Р№ СЂР°Р·РјРµСЂ РјР°СЃСЃРёРІР°");
         }
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
@@ -32,7 +32,7 @@ public class Program {
                     sum += Integer.parseInt(array[i][j]);
                 }
                 catch (NumberFormatException e) {
-                    throw new MyArrayDataException("Неверный формат данных в ячейке", i, j);
+                    throw new MyArrayDataException("РќРµРІРµСЂРЅС‹Р№ С„РѕСЂРјР°С‚ РґР°РЅРЅС‹С… РІ СЏС‡РµР№РєРµ", i, j);
                 }
             }
         }
