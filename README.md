@@ -11,3 +11,6 @@
 
 Урок 4. Обработка исключений
 [Домашняя работа № 4](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson4/src/main/java/ru/geekbrains)
+
+Урок 5. Внешний мир
+[Домашняя работа № 5](https://github.com/MikhailAkulov/Java_Core_Home_works/tree/main/lesson5/src/main/java/ru/geekbrains/lesson5)
